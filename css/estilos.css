@@ -1,0 +1,55 @@
+@font-face {
+    font-family: cafe light;
+    src: url(louis\ George\ cafe\ light.tff)
+}
+@font-face {
+    font-family: louis;
+    src: url(Louis\ George\ Cafe.ttf)
+}
+:root{
+    --cor-fundo:#BD7DCF;
+    --cor-títilo:#8226b8;
+    --cor-paragrafo: #993399;
+    --cor-link: #5a0781;
+    --cor-borda: #651d96;
+    --fonte-principal: cafe light;
+    --fonte-parágrafo: louis;
+}
+body{
+    background-color: var(--cor-fundo);
+    font-family: var(--fonte-parágrafo);
+    width: 500px;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div{
+    text-align: center;
+}
+
+h1 {
+    color: var(--cor-títilo);
+    font-family: var(--fonte-parágrafo);
+    margin-top: 25px;
+    margin-bottom: 125px;
+    margin-left: 25px;
+}
+h3 {
+    color: var(--cor-títilo);
+    font-family: var(--fonte-principal);
+    margin-top: 25px;
+}
+body p{
+    color:var(--cor-paragrafo);
+    text-align: justify
+}
+ul li a{
+    color: var(--cor-link);
+}
+img{
+    width: 250px;  
+    margin-top: 25px;
+    margin-bottom: 125px;
+    margin-left: 25px;
+}
